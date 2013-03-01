@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.68.
+signed via the Module::Signature module, version 0.70.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,14 +14,14 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 3753b2c4b90f33f49068903be7f0ffdf32749a87 COPYRIGHT
-SHA1 07d511ae84566907a09b6f6f6884c77ac18aeb7c Changes
+SHA1 158d06a907dea610c8a698510f52d5ae68104f10 COPYRIGHT
+SHA1 27b1caad55e7e7f51684978018f86f2e4a4e723c Changes
 SHA1 58e47fed556f626572681c48158a3ecd44ce179d HACKING
 SHA1 937d452c5c4069f4cda9ffaf45a33f1eb5f060e8 LICENSE
-SHA1 7ad3cca62550c39013659afe4e6c760a2a2c82a1 MANIFEST
-SHA1 d1b49cc6bbb1fefb93e76109d3f3c0de0c214e02 META.yml
+SHA1 1af51e4b604fae1d907de2baaa4591936080a7ed MANIFEST
+SHA1 0f4baea23ce6752ceb1a618cf2be1fc1a839a2c7 META.yml
 SHA1 b9d5dd0b476253d37384aed42664179605286153 Makefile.PL
-SHA1 7098ebe0478887a2094566e47d772260e7dfee6e README
+SHA1 75da19f91fa7f16b763085265db8a21ddb63182a README
 SHA1 06c410f05488c1612ed66b06d3a86b2580581e4a inc/Module/AutoInstall.pm
 SHA1 8a924add836b60fb23b25c8506d45945e02f42f4 inc/Module/Install.pm
 SHA1 61ab1dd37e33ddbe155907ce51df8a3e56ac8bbf inc/Module/Install/AutoInstall.pm
@@ -42,8 +42,8 @@ SHA1 0e0eed2e69d9583081868cf4f220068d0a018568 inc/Scalar/Util.pm
 SHA1 feb933cefe2e3762e8322bd6071a2499f3440da1 inc/YAML/Tiny.pm
 SHA1 8105c0510a773b56840995fb4dd2dc64fe9ddaee inc/unicore/Name.pm
 SHA1 36df501c7c9b73c282c5174ed54d8283b2f2cbf2 inc/utf8.pm
-SHA1 3ffcbe67f49ed1642c34e96b4a7c6250c7ba7df1 lib/MooseX/CustomInitArgs.pm
-SHA1 ed42cfb770077b689475f307cf1abce2f64b57fc meta/changes.pret
+SHA1 e1ae881721f780cd6a3c2cd6cabe2dce574045f7 lib/MooseX/CustomInitArgs.pm
+SHA1 82aa91e8313d5e9b79d4614dbe16f6d4539c9652 meta/changes.pret
 SHA1 44761fab72964f3ba66adec1037802d2db142cc1 meta/doap.pret
 SHA1 4bf595daebdb2245a93f0784295fc0dfdd87da54 meta/makefile.pret
 SHA1 a151cff74b5f29c00381a14d4ec8726e3763b6b2 meta/people.pret
@@ -54,10 +54,11 @@ SHA1 9a277177a0ccb8d011c7db1ccea3635fba60d5d7 t/04withrole.t
 SHA1 ca4e0817c825f92b8d445afdff569ec32009ad64 t/05namedmethod.t
 SHA1 34a5c1bd8160cc7c48fff43e105bf7f62963f4ea t/06scalarref.t
 SHA1 34765e50c817baf3b09f47b19ce52a5a63c53f4b t/07exceptional.t
+SHA1 0705cd8e5aa04deec50e630930f069f2fe16fdb5 t/08versuscoerce.t
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.10 (GNU/Linux)
+Version: GnuPG v1.4.11 (GNU/Linux)
 
-iEYEARECAAYFAlDt3pUACgkQzr+BKGoqfTkHaQCfSSCwmTh3cpaMYIeAUBN1TSDV
-3LgAn3hur3k9hDSDLO1hns5pawxBiQFV
-=5oCD
+iEYEARECAAYFAlEw2EsACgkQzr+BKGoqfTlYEwCfWE2/QY4N/YpVrYiYFXvSaUbS
+Im8AnjUl4i8cM05EEHYGXN00YwXKFzAQ
+=PNjg
 -----END PGP SIGNATURE-----

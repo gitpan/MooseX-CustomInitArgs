@@ -57,6 +57,24 @@ DESCRIPTION
     either case it will be coerced to "MooseX::CustomInitArgs"'s internal
     representation which is a "Data::OptList"-style arrayref of arrayrefs.
 
+  Interaction with type constraints and coercion
+    Normally, custom init arg coderefs run *before* the value has been
+    through type constraint checks and coercions. This allows the coderef to
+    massage the value into passing its type constraint checks.
+
+    However, if you wish to run type constraint checks before the coderef,
+    use the "after_typecheck" helper:
+
+       init_args => [
+          'r',
+          'diameter' => after_typecheck { $_ / 2 },
+       ],
+
+    (There's a corresponding "before_typecheck" helper for clarity.)
+
+    After the coderef has been run, type constraint checks and coercions
+    will happen *again* on the result.
+
 CAVEATS
     "init_args" cannot be used on attributes with "init_arg => undef".
     "MooseX::CustomInitArgs" will throw an error if you do.

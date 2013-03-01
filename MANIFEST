@@ -38,4 +38,5 @@ t/04withrole.t
 t/05namedmethod.t
 t/06scalarref.t
 t/07exceptional.t
+t/08versuscoerce.t
 SIGNATURE                                Public-key signature (added by MakeMaker)
